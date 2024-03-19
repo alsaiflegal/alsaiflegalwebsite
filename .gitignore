@@ -1,0 +1,25 @@
+# Django
+*.pyc
+__pycache__/
+.django_admin.py
+.coverage
+local_settings.py
+
+# Tailwind CSS
+node_modules/
+package-lock.json
+.tailwindcss.config.js
+*.css.map  # Compiled CSS maps
+
+# Virtual environment
+.venv/
+venv_dev/
+
+# Database files
+db.sqlite3  # Or your database file name
+
+# IDE specific files
+.idea/
+
+# Local development files
+.env
